@@ -41,7 +41,7 @@ Rails.application.configure do
   config.active_storage.service = :local
 
   # Mount Action Cable outside main process or domain.
-  # config.action_cable.mount_path = nil
+  config.action_cable.mount_path = nil
   config.action_cable.url = "wss://walrus-app-6cf2n.ondigitalocean.app/cable"
   config.action_cable.allowed_request_origins = ["https://walrus-app-6cf2n.ondigitalocean.app", /http:\/\/walrus-app-6cf2n.ondigitalocean.*/ ]
 
