@@ -1,0 +1,17 @@
+{
+  "name": "blogdhh",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/devsparkles/blogdhh.git"
+  },
+  "private": true,
+  "dependencies": {
+    "local-time": "^3.0.2"
+  }
+}
